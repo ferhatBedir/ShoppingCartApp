@@ -1,11 +1,9 @@
-package ferhattest.serviceimpl;
+package com.ferhat.service;
 
 import com.ferhat.entity.*;
 import com.ferhat.exception.CartException;
-import com.ferhat.service.Cart;
-import com.ferhat.service.DeliveryCostCalculator;
-import com.ferhat.service.ımpl.CartImpl;
-import com.ferhat.service.ımpl.DeliveryCostCalculatorImpl;
+import com.ferhat.service.impl.CartImpl;
+import com.ferhat.service.impl.DeliveryCostCalculatorImpl;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +13,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import java.util.Map;
 
 @RunWith(MockitoJUnitRunner.class)
-public class CartImplTest {
+public class CartImplTests {
 
     @Mock
     private DeliveryCostCalculator deliveryCostCalculator;

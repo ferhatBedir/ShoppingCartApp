@@ -1,16 +1,15 @@
-package ferhattest.serviceimpl;
+package com.ferhat.service;
 
 import com.ferhat.entity.Category;
 import com.ferhat.entity.Product;
 import com.ferhat.exception.CartException;
-import com.ferhat.service.DeliveryCostCalculator;
-import com.ferhat.service.ımpl.DeliveryCostCalculatorImpl;
+import com.ferhat.service.impl.DeliveryCostCalculatorImpl;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
 
-public class DeliveryCostCalculateImplTest {
+public class DeliveryCostCalculateImplTests {
 
     DeliveryCostCalculator deliveryCostCalculator;
 
